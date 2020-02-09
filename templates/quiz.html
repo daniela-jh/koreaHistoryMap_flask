@@ -16,13 +16,14 @@
 	
 	<style>
 		.quizButtons{
+			margin: auto;
 			height: 300px;
 			width: 400px;
 			display: flex;
 			flex-direction: column;
 			flex-grow : 0;
 			justify-content: space-around;
-			align-content: space-around;
+			align-content: center
 		}
 	</style>
 </head>
@@ -35,8 +36,8 @@
 		</form>
 	</nav>
 	<div class="quizButtons">
-		<a href="/quizType1">
-			<button type="button" class="btn btn-secondary btn-lg">설명 보고 지역 맞추기</button>
+		<a class="btn btn-secondary btn-lg" href="/quizType1" type="button">
+			설명 보고 지역 맞추기
 		</a>
 		<button type="button" class="btn btn-secondary btn-lg">지역별 틀린 설명 고르기</button>
 		<button type="button" class="btn btn-secondary btn-lg">랜덤 유형</button>
